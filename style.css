@@ -1,0 +1,110 @@
+.hero {
+  min-height: 565px;
+
+  background: url(img1/photo1.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 700px;
+}
+.discount {
+  text-align: center;
+  color: white;
+  background-color: #df1409;
+  padding: 5px;
+  font-size: 90%;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.main-copy {
+  font-size: 140%;
+}
+@media screen and (max-width: 575px) {
+  .main-copy {
+    width: 65%;
+    margin: 0 auto;
+  }
+}
+.gallery div {
+  text-align: center;
+}
+.gallery img {
+  border-radius: 6px;
+}
+.gallery-wrapper {
+  background-color: #ceb008;
+  margin: 20px 0 30px;
+  padding-bottom: 20px;
+}
+footer {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-content: center;
+}
+footer {
+  padding: 20px 0;
+  background-color: rgb(232, 232, 232);
+}
+footer > p {
+  padding: 10px;
+}
+footer > p:nth-child(2) {
+  text-align: right;
+}
+.tx-center {
+  text-align: center;
+}
+h1 {
+  color: #ffe135;
+}
+.overlay > h1 {
+  font-size: 35px;
+  line-height: 50px;
+  opacity: 0.8;
+}
+.overlay {
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.2);
+  width: 100%;
+  min-height: 100px;
+  position: absolute;
+  height: 100%;
+  right: 0;
+  top: 0;
+}
+
+.pic-space {
+  margin-top: 70px;
+}
+
+.spacer {
+  margin: 60px auto;
+  clear: both;
+}
+
+.btn-bold {
+  font-weight: bold;
+  text-transform: uppercase;
+  /* border: 3px solid #ffc107; */
+}
+
+.product-img {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.product-img img {
+  margin: 40px auto;
+}
+
+@media (max-width: 575px) {
+  .product-img img {
+    margin-top: 70px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+}
